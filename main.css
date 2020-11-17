@@ -41,6 +41,11 @@ body {
     border-radius: 1.5em;
 
 }
+
+.btn a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
 #product-overview h1,
 #welcome-page {
     color: white;
