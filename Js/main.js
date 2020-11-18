@@ -105,8 +105,8 @@ class ProductItem  extends Component {
     <img src="${this.product.imageUrl}" alt="${this.product.title}">
     <div class="product-item__content">
     <h2>${this.product.title}</h2>
-    <h3>${this.product.price}</h3>
-    <p>\$${this.product.description}</p>
+    <h3> \$${this.product.price}</h3>
+    <p>${this.product.description}</p>
     <button> Add to cart </button>
     </div>
     </div>
