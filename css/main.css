@@ -8,6 +8,7 @@ body {
     margin: 0;
 	height: 100%;
 	background-color: lightslategrey;
+	background-image: url(Assets/freedom.jpg);
 }
 
 #product-overview {
@@ -309,94 +310,7 @@ footer{
 }
 
 
-
-/*---------------------Cart customisation -----------------------*/
-/* 
-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 4rem;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: #540075;
-	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
-  } */
-  
-  header h1 {
-	color: white;
-	font-size: 2rem;
-  }
-  
-  button {
-	background: saddlebrown;
-	color: white;
-	border: 1px solid saddlebrown;
-	border-radius: 5px;
-	padding: 0.5rem 2rem;
-	font: inherit;
-	cursor: pointer;
-  }
-  
-  button:focus {
-	outline: none;
-  }
-  
-  button:hover,
-  button:active {
-	background: saddlebrown;
-	border-color: saddlebrown;
-  }
-  
-  .cart {
-	margin: 5rem 2rem;
-	border: 2px solid saddlebrown;
-	border-radius: 10px;
-	padding: 2rem;
-	display: flex;
-	justify-content: space-between;
-  }
-  
-  .cart h2 {
-	margin: 0;
-	font-size: 1.5rem;
-	color: saddlebrown;
-  }
-  
-  .product-list {
-	list-style: none;
-	margin: 0 2rem;
-	padding: 0;
-  }
-  
-  .product-item {
-	margin: 2rem auto;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-	width: 50rem;
-	max-width: 90%;
-	
-  }
-  
-  .product-item img {
-	width: 100%;
-	height: 20rem;
-	object-fit: cover;
-  }
-  
-  .product-item__content {
-	padding: 1rem;
-	text-align: center;
-  }
-  
-  .product-item h2,
-  .product-item h3 {
-	margin: 0 0 1rem 0;
-  }
-
-  
-  /*-------------------- Slider Css ----------------------*/
+ /*-------------------- Slider Css ----------------------*/
 
   
 /* Slideshow container */
@@ -493,4 +407,3 @@ header {
 	from {opacity: .4}
 	to {opacity: 1}
   }
-
