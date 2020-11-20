@@ -8,11 +8,11 @@ body {
     margin: 0;
 	height: 100%;
 	background-color: lightslategrey;
-	background-image: url(Assets/freedom.jpg);
+	background-image: url(Assets/images/genbkg.jpg);
 }
 
 #product-overview {
-    background: url("Assets/freedom.jpg");
+ 
     width: 100%;
     height: 100%;
     padding:10px 10px;
